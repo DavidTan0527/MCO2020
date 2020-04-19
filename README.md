@@ -30,7 +30,7 @@ Thus the damage dealt on the castles can be calculated by recording the current 
 Formally, the current damage dealt on castle i is calculated by taking the prefix sum of base from 0 to i;
 ```
 
-*Y* can become more complicated as the amount of damage by which a castle takes increases repeatedly over the interval. There are many ways of solving it and my method is honestly very messy. My idea is to keep track of the accumulated damage and the amount to increment that damage by for every castle. Because my method does not account for terminating this accumulating increment, I cancel this effect by keeping track of the accumulated value to deduct from the damage and the amount by which this value increments by.
+*Y* can become more complicated as the amount of damage by which a castle takes increases repeatedly over the interval. There are many ways of solving it and my method is honestly very messy. The basic idea of my method is to keep track of the accumulated damage and the amount to increment that damage by for every castle. Because my method does not account for terminating this accumulating increment, I cancel this effect by keeping track of the accumulated value to deduct from the damage and the amount by which this value increments by.
 
 Using this we can easily calculate the damage for a given castle *i* where the *X* damage = ∑ base[0...i], *Y* damage = accumulated damage - accumulated deduction.
 
