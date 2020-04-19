@@ -1,5 +1,5 @@
 # MCO2020
-Solutions with explanations of Malaysian Computing Olympiad (MCO) 2020
+Solutions with explanations for Malaysian Computing Olympiad (MCO) 2020
 
 I only included solutions for the first three problems as these were the only ones I was able to solve out of the five.
 I will still include the problem statements of the last two problems in this repo and might one day come back to solving them.
