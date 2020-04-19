@@ -41,11 +41,6 @@ void merge(ll a, ll b) {
   dsu[a] = b;
 }
 
-bool query(ll a, ll b) {
-  if (parent(a) == parent(b)) return true;
-  return false;
-}
-
 ll si(ll r, ll c) {
   return r+c;
 }
