@@ -26,7 +26,7 @@ Let's say we have 9 castles
 By applying the rule stated above, base is now { 0, 3, 3, 1, 0, 0, -3, 0, -1 }
 Notice that since the length of the array is 9, the third condition where we should do base[9] -= 3 can be ignored as it exceeds the array length
 
-Thus the damage dealt on the castles can be calculated by recording the current damage baseumulated.
+Thus the damage dealt on the castles can be calculated by recording the current damage accumulated.
 Formally, the current damage dealt on castle i is calculated by taking the prefix sum of base from 0 to i;
 ```
 
