@@ -37,7 +37,7 @@ Using this we can easily calculate the damage for a given castle *i* where the *
 > The time complexity of this solution is ***O(N)***
 
 # Reversi
-Normally, when given a problem related to diagonals on a grid, it is useful to recall that cells with column *c* and row *r* sharing the same diagonal with positive gradient, i.e. /, has a common value of *r-c* (or *c-r*), whereas cells sharing the same diagonal with negative gradient, i.e. \, has a common value of *r+c*.
+Normally, when given a problem related to diagonals on a grid, it is useful to recall that cells with column *c* and row *r* sharing the same diagonal with positive gradient, i.e. /, has a common value of *r-c* (or *c-r*), whereas cells sharing the same diagonal with negative gradient, i.e. \\, has a common value of *r+c*.
 
 It is also important to note that we do not need to account for every possible diagonal as the total number of diagonals is 4\*10<sup>9</sup> - 2, which will exceed the memory limit. Thus, we only need to account for diagonals that have at least one white piece on it, which has a maximum number of 2\*N.
 
